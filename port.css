@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    background-color: brown;
+    width:100%;
+    height:4em;
+    align-items: center;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    
+}
+nav a{
+    color:white;
+    margin-right: 1em;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+#About{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(26, 25, 25);
+    height: 100vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#About img{
+   
+        display: block;
+        width: 8%;
+        margin-bottom: 0.8em;
+        
+    
+}
+#About h1{
+    font-size:3rem;
+    margin-bottom: 0.5em;
+    color:white;
+
+}
+#About p{
+    font-size:1.5rem;
+    font-style: italic;
+    color: rgb(106, 104, 104);
+    font-size:1.5rem;
+}
